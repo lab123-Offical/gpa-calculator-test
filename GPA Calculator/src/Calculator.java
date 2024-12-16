@@ -37,13 +37,13 @@ public class Calculator
             String sixth,
             String seventh)
     {
-        int firstNum = letterGrade.get("first");
-        int secondNum = letterGrade.get("second");
-        int thirdNum = letterGrade.get("third");
-        int fourthNum = letterGrade.get("fourth");
-        int fifthNum = letterGrade.get("fifth");
-        int sixthNum = letterGrade.get("sixth");
-        int seventhNum = letterGrade.get("seventh");
+        int firstNum = letterGrade.get(first);
+        int secondNum = letterGrade.get(second);
+        int thirdNum = letterGrade.get(third);
+        int fourthNum = letterGrade.get(fourth);
+        int fifthNum = letterGrade.get(fifth);
+        int sixthNum = letterGrade.get(sixth);
+        int seventhNum = letterGrade.get(seventh);
 
         double gpa = (firstNum + secondNum + thirdNum + fourthNum + fifthNum + sixthNum + seventhNum) / 7.0;
 
